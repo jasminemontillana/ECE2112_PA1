@@ -65,5 +65,7 @@ Thanks for reading!
 To access the main python code for Programming Assignment 1, click this link: https://github.com/jasminemontillana/ECE2112_PA1/blob/19cd79fade794749277d5ea5f90208e181d9eb6e/Programming_Assignment_1.ipynb
 
 README File Version History:
+
 August 26, 2026 - Initial Commit
+
 August 27, 2026 - Updated
