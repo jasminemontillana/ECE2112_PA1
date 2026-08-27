@@ -22,13 +22,13 @@ def rotate_word(text):
 rotate_word('python')
 ```
 ## B. Username Builder Problem
-Create a function named `make_username()` that accepts two string arguments (first_name and last_name), converts all character to lowercase, removes spaces, and joins them using a perion (.).
+Create a function named `make_username()` that accepts two string arguments (`first_name` and `last_name`), converts all character to lowercase, removes spaces, and joins them using a perion (`.`).
 
 Key functions and methods used in this problem:
 
 `.lower()`: A built-in string method that converts all uppercase characters in a string to lowercase. 
 
-String Concatenation (+): Joins the lowercase first name, a dot separator ".", and the lowercase last name.
+String Concatenation (`+`): Joins the lowercase first name, a dot separator ".", and the lowercase last name.
 
 (Note: If handling names with spaces such as "Jasmine Marie" or "De Jesus", `.replace(" ", "")` can be chained before concatenating.)
 
@@ -39,3 +39,26 @@ def make_username(first_name, last_name):
 make_username("Jasmine", "Montillana")
 ```
 
+## C. Bookend Swap Problem
+Create a function named `swap_bookends()` that takes a list containing at least two elements and swaps its first and last elements while keeping the middle elements in their original order using extend sequence unpacking. []
+
+Key functions and methods used in this problem:
+
+Extended Sequence Unpacking (`first, *middle, last = items`): Assigns the first element to `first`, the last element to `last`, and packs all intervening elements into a new list named middle. [] 
+
+List Concatenation (`+`): Constructs and returns a new list by combining `[last]`, `middle`, and [`first`] without altering the input list. []
+
+Below is the complete Python code implementation for this function:
+```python
+def swap_bookends(items):
+  first, *middle + last = items
+  return [last] + middle + [first]
+swap_bookends([1,2,3,4,5,6])
+```
+
+Thanks for reading!
+
+To access the main python code for Programming Assignment 1, click this link: 
+
+README File Version History 
+August 27, 2026 
