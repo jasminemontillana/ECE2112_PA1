@@ -1,6 +1,8 @@
 # ECE2112_PA1
 
 **Made by: Montillana,Jasmine Marie P. | 2ECE-B**
+
+
 This repository contains the completed Programming Assignment 1 for ECE2112. The project covers basic Python string operations, slicing, concatenation, built-in string methods, and extended sequence unpacking without external libraries. 
 
 ## A. Word Rotation Problem
