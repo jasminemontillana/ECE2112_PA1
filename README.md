@@ -12,3 +12,11 @@ Create a function named 'rotate_word()' that accpets a non-empty string and move
 Key functions and methods used in this problem:
 
 Slicing (`text[1:]` and `text[:1]`) : Extracts parts of the string without modifying the original data. `text[1:]` retrieves all characters starting from index 1 to the end, while `text[:1]` extracts the first character.
+
+String Concatenation (`+`): Merges the sliced substring and the isolated first character together.
+
+Below is the complete Python code implementation for this function:
+```python
+def rotate_word(text):
+  return text[1:] + text[:1]
+rotate_word('python')
