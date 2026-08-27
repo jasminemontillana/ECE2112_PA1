@@ -21,6 +21,8 @@ def rotate_word(text):
   return text[1:] + text[:1]
 rotate_word('Code')
 ```
+Expected Output: `odeC`
+
 ## B. Username Builder Problem
 Create a function named `make_username()` that accepts two string arguments (`first_name` and `last_name`), converts all character to lowercase, removes spaces, and joins them using a perion (`.`).
 
@@ -38,6 +40,7 @@ def make_username(first_name, last_name):
   return first_name.lower() + "." + last_name.lower()
 make_username("Peter", "Parker")
 ```
+Expected Output:  `peter.parker`
 
 ## C. Bookend Swap Problem
 Create a function named `swap_bookends()` that takes a list containing at least two elements and swaps its first and last elements while keeping the middle elements in their original order using extend sequence unpacking.
@@ -55,6 +58,7 @@ def swap_bookends(items):
   return [last] + middle + [first]
 swap_bookends([1,2,3,4,5,6])
 ```
+Expected Output: `6,2,3,4,5,1`
 
 Thanks for reading!
 
